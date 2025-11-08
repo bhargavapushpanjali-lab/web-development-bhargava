@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning from 5th Day</h1>
+    <h2>What is form?</h2>
+    <p>Form allow users to submit the entered data to a server for processing.</p>
+    <h2>Steps to create the form</h2>
+    <ol>
+        <li>Use form tag to declare that you are creating the form.</li>
+        <li>Use input tag to create the cox in the form.</li>
+        <li>Determine the type of input you will enter in the box. For this purpose you can use type="". </li>
+        <li>Use label tag before input tag to tell the user what should be fill in the box.</li>
+        <li>To create submit button, use input tag. Inside input tag declare it's type="submit".</li>
+    </ol>
+    <h2>The types of input we can use in HTML</h2>
+    <ol>
+        <li>Text</li>
+        <li>Number</li>
+        <li>Password</li>
+        <li>Submit</li>
+        <li>Radio</li>
+        <li>checkbox</li>
+        <li>date</li>
+        <li>email</li>
+        <li>tel</li>
+        <li>file</li>
+    </ol>
+    <br></br>
+    <p>Now whenever we take the information of user it goes somewhere. For now we can say that this information goes to database.</p>
+    <p>In Database there is the excel sheet already formed by the backend developer in which the information of user will be stored.</p>
+    <p>But ever you thought that how it gets to know that which type of information has come and where to store it in excel sheet.</p>
+    <p>Here comes the concept of name-value concept</p>
+    <h2>Name-value Attribute</h2>
+    <ul>
+        <li>As we discussed above that excel sheet does not get to know what type of information had came and wher to store it.</li>
+        <li>So we need to send complete data to the database that what type of information is that and what value it have to store.</li>
+        <li>So for the determination of which type of value we are sending to database we use name keyword.</li>
+        <li>We will add name keyword inside input tag.</li>
+        <li>Name keyword can be same as that of level and can be different also.</li>
+        <li>Value is equal to data which we have entered in the box of the form.</li>
+    </ul>
+    <h2>radio Buttons</h2>
+    <ul>
+        <li>We use type="radio" inside input tag when we need to select single option from multiple option of same name keyword.</li>
+        <li>It is used when only one value can be taken in name keyword</li>
+    </ul>
+    <h2>for keyword</h2>
+    <ul>
+        <li>You have noticed that sometime when we click on the label mentioned before the box it directly navigates us to inside the box.</li>
+        <li>This happens with the help of for keyword which is declared inside label tag.</li>
+        <li>We have to link for with id for which we should give same name to both of them.</li>
+    </ul>
+    <h2>value keyword</h2>
+    <ul>
+        <li>If you designed the buttons in your form then when you fill that form so when you click on that button it takes value as on and another click results the value as off.</li>
+        <li>To resolve this problem we have to use value keyword inside input tag and ensures that what value should the database take when we on/off the button.</li>
+    </ul>
+    <h2>checkboxes</h2>
+    <ul>
+        <Li>By using checkboxes multiple values can be taken as input.</Li>
+        <Li>To create checkboxes in the form we have to write type="checkbox" inside input tag.</Li>
+    </ul>
+    <h2>placeholder Attribute</h2>
+    <ul>
+        <li>This attribute is used when we want to add an example inside box that which type of data should be entered in box.</li>
+        <li>For this we have to write like this placeholder="eg:abc" inside the input tag.</li>
+    </ul>
+    <h2>textarea tag</h2>
+    <ul>
+        <li>It is used when we have to enter large text inside the box of the form.</li>
+        <li>It increases the area of box in the form.</li>
+        <li>It's size can be determine by entering the value of height and width.</li>
+    </ul>
+    <h2>select tag</h2>
+    <ul>
+        <li>It is used when we have to create dropdown option in the box.</li>
+        <li>With select tag you also have to use option tag to determine the options in dropdown.</li>
+    </ul>
+    <h2>button tag</h2>
+    <ul>
+        <li>It is used to create buttons in the form.</li>
+    </ul>
+    <h2>required Attribute</h2>
+    <ul>
+        <li>It is used to mark important fields in the form and without filling those fields form wil not be submitted.</li>
+        <li>For this you just have to write required inside input tag.</li>
+    </ul>
+    <p>For the following image</p>
+    <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/06/html15.png" heigth="200px" width="200px" alt="code">
+    <p>The form is</p>
+    <form>
+        <label for="name">User Name:</label>
+        <input type="text" id="name">
+        <br></br>
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <br></br>
+        <input type="submit">
+    </form>
+    <p>For further lecture notes you can use following links.</p>
+        <ul>
+            <li><a href="index.html">Lecture 1</a></li>
+            <li><a href="else.html">Lecture 2</a></li>
+            <li><a href="Day3.html">Lecture 3</a></li>
+            <li><a href="Day4.html">Lecture 4</a></li>
+            <li><a href="Day5.html">Lecture 5</a></li>
+            <li><a href="Day6.html">Lecture 6</a></li>
+        </ul>
+</body>
+</html>
