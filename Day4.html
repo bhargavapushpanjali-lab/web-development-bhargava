@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learnings from 4th Day</h1>
+    <h2>Understanding the File Path</h2>
+    <p>As we know that we can add image in our website using img tag in HTML and by determining it's source by using src.</p>
+    <p>But what we will do when we have to add an image that is present inside our system only then how we will determine the path of that image.</p>
+    <p>Here comes the role of File Path.</p>
+    <p>You can determine the path of the image that is stored inside your system itself by two ways:</p>
+        <ol>
+            <li>Relative Path
+                <p>Relative path is determined from the current position.</p>
+                <p>For Example:</p>
+                <p>Suppose you have 3 folders in your system. Inside each folder there are three files.</p>
+                <ol>
+                    <li>Folder1 is Alpha
+                        <ul>
+                            <li>File1.1 is dog.png</li>
+                            <li>File1.2 is cow.png</li>
+                            <li>File1.3 is ex.html</li>
+                        </ul>
+                    </li>
+                    <li>Folder2 is Beta which is inside folder1 
+                        <ul>
+                            <li>File2.1 is lion.png</li>
+                            <li>File2.2 is cat.png</li>
+                            <li>File2.3 is x.html</li>
+                        </ul> 
+                    </li>
+                    <li>Folder3 is Gamma which is inside folder2
+                         <ul>
+                            <li>File3.1 is pet.png</li>
+                            <li>File3.2 is rabbit.png</li>
+                            <li>File3.3 is xe.html</li>
+                        </ul> 
+                        <p>a. Now let's suppose you are in file2.3 which is inside folder2 and you want to add the image stored in file 2.2</p>
+                        <p>b. You can acheive the above task by simply writing the name of that file that is cat.png or ./cat.png in src.</p> 
+                        <p>c. Now if you want to add the image which is not in the folder2 but in folder3 which is inside folder2.</p>
+                        <p>d. So now you have to write like this in src.</p>
+                        <p>Folder3/pet.png</p>
+                        <p>You can also write like this ./Folder3/pet.png</p>
+                        <p>f. Now if you want to add the image which is not in the folder2 but in folder1 inside which folder2 is there.</p>
+                        <p>g. So now you have to write like this in src.</p>
+                        <p>../cow.png</p>
+                    </li>
+                    <p>h. In relative path you can go up and as well as down from your current position.</p>
+                    
+                </ol>
+            </li>
+            <li>Absolute Path
+                <ul>
+                  <li>In absolute path you give exact path of the file from core or root level.</li>
+                  <li>For Window's Absolute path looks like C:\Users\John\Documents\report.docs.</li> 
+                  <li>For Linux Absolute path looks like Users/John/Documents/report.docs</li> 
+                </ul>
+            </li>
+        </ol>
+        <h3>Why we don't use absolute path most of the time?</h3>
+        <p>Because it gives another system to open particular file from the root level of your system. Which is undoubtedly very dangerous for your system as it contains sensitive data as well.</p>
+        <p>That is why browser automatically block the absolute path to protect your system.</p>
+        <p>Same apply for relative path as well if you give the relative path in such a way that it can enter's inside your system then in that case as well browser blocked it's path.</p>
+        <h2>What is Boilerplate Code And Why we use it?</h2>
+        <p>This is our boiler plate code of HTML</p>
+        <img src="https://xsyrakou.com/wp-content/uploads/2024/09/Skarmbild-2024-09-10-215544.png" height="200px" width="200px">
+        <p>HTML has the most special characteristic that it will never show error. It is because so that it can be worldwide adopted.</p>
+        <p>We use boiler plate code because when we add CSS in HTML file it can give unexpected results.</p>
+        <p>To get expected result we use boiler plate code.</p>
+        <h2>What is div tag?</h2>
+        <ul>
+            <li>Div is like the container inside which their are multiple tags.</li>
+            <li>Div is used when we want to make changes in multiple elements which are continuous in code.</li>
+            <li>Instead of making changes in them one by one we put those elements in div container.</li>
+            <li>And then make changes in div container ultimately leads to the changes in those elements as well</li>
+        </ul>
+        <img src="https://myschoolhouse.in/admin-panel/assets/uploads_img/65a5199429e7e_D_15_01_2024_T_11_40_04am.jpg" height="200px" width="400px" alt="Div">
+        <h2>Concept of class And id</h2>
+        <h3>class</h3>
+        <ul>
+            <li>Class is used when you want to make changes in elements or tags which are not continuous in code.</li>
+            <li>You can make changes in them by giving them the same class.</li>
+            <li>Class can be repeated.</li>
+            <li>Changes in class leads to changes in those elements.</li>
+            <li>Class is nothing just the grouping of elements or tags.</li>
+        </ul>
+        <img src="https://dotnettutorials.net/wp-content/uploads/2021/10/word-image-146.png" heigth="200px" width="200px" alt="class">
+        <h3>id</h3>
+        <ul>
+            <li>Id is used when you want to make changes in any particular element.</li>
+            <li>Id is used to select element uniquely.</li>
+            <li>Id can not be repeated.</li>
+            <li>Id is unique.</li>
+        </ul>
+        <img src="https://global.discourse-cdn.com/freecodecamp/original/4X/5/f/b/5fbe5c13a6bb993c10a220920d098f5567e5e0f3.png" height="200px" width="300px" alt="id">
+        <h2>Three parts of the website</h2>
+        <ol>
+            <li>Header: It indicates the meaning of website.</li>
+            <li>Body: It contains the main part of website.</li>
+            <li>Footer: It contains terms and conditions of website.</li>
+        </ol>
+
+    <p>For further lecture notes you can use following links.</p>
+        <ul>
+            <li><a href="index.html">Lecture 1</a></li>
+            <li><a href="else.html">Lecture 2</a></li>
+            <li><a href="Day3.html">Lecture 3</a></li>
+            <li><a href="Day4.html">Lecture 4</a></li>
+            <li><a href="Day5.html">Lecture 5</a></li>
+            <li><a href="Day6.html">Lecture 6</a></li>
+        </ul>
+</body>
+</html>
