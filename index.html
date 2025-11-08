@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome To My Learning Journey</h1>
+    <p>Hello everyone, here i am sharing my journey of learning HTML for the first time in my life.</p>
+    <hr>
+    <h2>Day 1 Of Learning HTML</h2>
+    <p>So here are the notes of first day of learning HTML.</p>
+    <hr>
+    <h3>What is Web Development?</h3>
+    <p>Before understanding web development we should understand what is internet and how it works.</p>
+    <p>So here the one more question arises that why we use internet?</p>
+    <p>The answer of this question is that to communicate with each other and to transfer data from one device to another we need internet.And to transfer data we need address so that we can send data to another one just like postal system.</p>
+    <p>So here the concept of IP address comes in role</p>
+    <h4>What is IP Address?</h4>
+    <p>When the device is connected to the internet it has given an address which is called IP address. And when it is disconnected from internet IP address IP address wil be taken from that device.</p>
+    <p>Things to remember about IP Address.</p>
+    <ol>
+        <li>The full form of IP address is Internet Protocol.</li>
+        <li>It is provided by ISP(Internet Service Provider).</li>
+        <li>It is not the permanent address of the device.</li>
+        <li>It is a dynamic address.</li>
+    </ol>
+    <p>The data is transefered in the form of the way described below:</p>
+    <table border="1">
+        <tr>
+            <td>Sender's IP Address</td>
+            <td>Data</td>
+            <td>Receiver's IP Address</td>
+        </tr>
+    </table>
+    <p>So from the concept of IP address we have known that we need an address to transfer data from one device to another. </p>
+    <p>Ever you thought that when we search for any website in web browser we don't write the address of that server in which that website is present then how we get the web page in result.</p>
+    <p>So here comes the DNS(Domain Name System) for the rescue.</p>
+    <h4>DNS (Domain Name System)</h4>
+    <p>It is the system which maintains the book for the user of device.It is the book which contains IP address of each and every device.</p>
+    <p>For example:</p>
+    <table border="1">
+        <tr>
+            <td>google.om</td>
+            <td>13.46.5.4</td>
+        </tr>
+        <tr>
+            <td>coderarmy.in</td>
+            <td>50.16.11.21</td>
+        </tr>
+        <p>The following steps happen when you search any website in your web browser.</p>
+    </table>
+    <ul>
+        <li>Whenever we search any website in our browser.</li>
+        <li>The request is send to DNS system.</li>
+        <li>To ask for the IP address of server which contains the website.</li>
+        <li>DNS returns the IP address of server.</li>
+        <li>Then computer sends data to the server.</li>
+        <li>Server returns the data to computer and then website opens.</li>
+    </ul>
+    <p>The constituents of DNS System.</p>
+    <ol>
+        <li>Recursive Server</li>
+        <li>Root Server</li>
+        <li>TLD (Top Level Domain)</li>
+        <li>Authoritative Sever</li>
+    </ol>
+    <img src="https://www.pynetlabs.com/wp-content/uploads/2023/10/How-DNS-Works.jpeg" height="200px" width="200px" alt="DNS">
+    <p>So till now we have understood the meaning of IP address and role of DNS in our system.</p>
+    <h4>Why we need Mac Address?</h4>
+    <p>In our device we need Mac address because IP address is not permanent address while exchanging data from one computer to another if any one of them is disconnected frpm internet then in that case IP address has been taken from that computer and ISP can give that address to any other device results in miscommunication of data.</p>
+    <p>It becomes more dangerous when data is sensitive.So we need permanent address for our device that's why Mac address has been given to each device.</p>
+    <p>Points to be remember about Mac address:</p>
+    <ol>
+        <li>Mac address is permanent address as it comes physically attached with device.</li>
+        <li>Mac address is in hexadecimal form.</li>
+        <li>The number of Mac address of a device is equal to number of ways to transfer data from our device to another.</li>
+    </ol>
+    <p>As we have discussed about Mac address so parallel to it let's understand the concept of Port number.</p>
+    <h4>Port Number</h4>
+    <p>By Port Number, device can determine in which tab data should be display after receiving the message.</p>
+    <p>So finally our message looks like this when we send message to another device.</p>
+    <table border="1">
+        <tr>
+            <td>Sender's IP address</td>
+            <td>Sender's Mac address</td>
+            <td>Sender's Port Number</td>
+            <td>data</td>
+            <td>Receiver's IP address</td>
+            <td>Receiver's Mac address</td>
+            <td>Receiver's Port Number</td>
+        </tr>
+        </table>
+        <h4>Now we will discuss some points that i have learnt:</h4>
+        <ol>
+            <li>https is more secure than http as https can only read by the receiver.</li>
+            <li>There are two types of IP address
+                <ul>
+                    <li>Public</li>
+                    <li>Private</li>
+                </ul>
+            </li>
+            <li>IPV4 is of 32 bit ranges from 0.0.0.0 to 255.255.255.255</li>
+            <li>There are total 430 crore IPV4 addresses</li>
+            <li>As our devices exceeds from this quantity as well, it is not possible to give each device unique address without repeating it so we need to introduce IPV6.</li>
+            <li>IPV6 is in the hexadecimal form.</li>
+            <li>Port number is of 16 bit(unsigned).</li>
+        </ol>
+        <h4>How Internet Works?</h4>
+        <p>If we think of the methods to transfer data from one device to another we came across with these two ways:</p>
+        <ol>
+            <li>By using pendrive</li>
+            <li>By connecting devices through cables.</li>
+        </ol>
+        <p> But both have their respective drawbacks and impractical way to transfer data when we talk about tranfering data on large scale.</p>
+        <p>So here comes the role of LAN(Local Area Network),Router and Network</p>
+        <h4>Networks</h4>
+        <img src="https://www.homenethowto.com/wp-content/uploads/home-network-overview.jpg" height="200px" width="300px" alt="network">
+        <ul>
+            <li>Internet helps to connect LAN all across the world.</li>
+            <li>Private IP address of a computer is unique only within the LAN.</li>
+            <li>But in different LAN private address can be same.</li>
+            <li>Public IP address is globally unique address.</li>
+            <li>Router has given Public IP address to stand out uniquely.</li>
+        </ul>
+        <p>For further lecture notes you can use following links.</p>
+        <ul>
+            <li><a href="index.html">Lecture 1</a></li>
+            <li><a href="else.html">Lecture 2</a></li>
+            <li><a href="Day3.html">Lecture 3</a></li>
+            <li><a href="Day4.html">Lecture 4</a></li>
+            <li><a href="Day5.html">Lecture 5</a></li>
+            <li><a href="Day6.html">Lecture 6</a></li>
+        </ul>
+</body>
+</html>
+
